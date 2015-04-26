@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.misortel.tincan"
+    package="com.tincan.tincan"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -38,7 +38,7 @@
             android:label="@string/app_name"
             android:uiOptions="splitActionBarWhenNarrow">
             <intent-filter>
-                <action android:name="com.misortel.tincan.MainActivity" />
+                <action android:name="com.tincan.tincan.MainActivity" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <meta-data 
@@ -48,51 +48,51 @@
         
         <activity android:name=".About"
             android:label="@string/label_about"
-            android:parentActivityName="com.misortel.tincan.MainActivity">
+            android:parentActivityName="com.tincan.tincan.MainActivity">
             <intent-filter>
-                <action android:name="com.misortel.test.About" />
+                <action android:name="com.tincan.test.About" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.misortel.tincan.MainActivity" />
+                android:value="com.tincan.tincan.MainActivity" />
         </activity>
         
         <activity android:name=".CallRates"
             android:label="@string/label_callrates"
-            android:parentActivityName="com.misortel.tincan.MainActivity">
+            android:parentActivityName="com.tincan.tincan.MainActivity">
             <intent-filter>
-                <action android:name="com.misortel.test.CallRates" />
+                <action android:name="com.tincan.test.CallRates" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.misortel.tincan.MainActivity" />
+                android:value="com.tincan.tincan.MainActivity" />
         </activity>
         
         <activity android:name=".Call"
             android:label="@string/app_name">
             <intent-filter>
-                <action android:name="com.misortel.test.Call" />
+                <action android:name="com.tincan.test.Call" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
         
         <activity android:name=".CallLogs"
             android:label="@string/label_recent"
-            android:parentActivityName="com.misortel.tincan.MainActivity">
+            android:parentActivityName="com.tincan.tincan.MainActivity">
             <intent-filter>
-                <action android:name="com.misortel.app.CallLogs" />
+                <action android:name="com.tincan.app.CallLogs" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.misortel.tincan.MainActivity" />
+                android:value="com.tincan.tincan.MainActivity" />
         </activity>
                
         <activity android:name=".Profile" android:label="@string/label_settings" />
         <activity android:name=".Settings" android:label="@string/label_settings" />
-        <receiver android:name="com.misortel.test.IncomingCallReceiver" android:label="Call Receiver"/>
+        <receiver android:name="com.tincan.test.IncomingCallReceiver" android:label="Call Receiver"/>
     </application>
 
 </manifest>

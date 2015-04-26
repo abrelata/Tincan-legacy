@@ -1,9 +1,9 @@
-package com.misortel.tincan.adapter;
+package com.tincan.tincan.adapter;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
-import com.misortel.tincan.CallLogObject;
+import com.tincan.tincan.CallLogObject;
 
 import android.content.ContentValues;
 import android.content.Context;

@@ -1,4 +1,4 @@
-package com.misortel.tincan.adapter;
+package com.tincan.tincan.adapter;
 
 import java.nio.charset.Charset;
 import java.security.GeneralSecurityException;

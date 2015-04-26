@@ -1,6 +1,6 @@
-package com.misortel.tincan;
+package com.tincan.tincan;
 
-import com.misortel.tincan.adapter.AlertManager;
+import com.tincan.tincan.adapter.AlertManager;
 
 import android.os.Bundle;
 import android.preference.Preference;

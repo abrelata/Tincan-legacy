@@ -1,6 +1,6 @@
-package com.misortel.tincan;
+package com.tincan.tincan;
 
-import com.misortel.tincan.adapter.DBCon;
+import com.tincan.tincan.adapter.DBCon;
 
 import android.net.sip.SipException;
 import android.os.Bundle;

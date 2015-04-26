@@ -1,9 +1,9 @@
-package com.misortel.tincan.adapter;
+package com.tincan.tincan.adapter;
 
 import java.util.List;
 
-import com.misortel.tincan.Contacts;
-import com.misortel.tincan.R;
+import com.tincan.tincan.Contacts;
+import com.tincan.tincan.R;
 
 import android.app.Activity;
 import android.content.Context;

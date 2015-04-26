@@ -1,4 +1,4 @@
-package com.misortel.tincan;
+package com.tincan.tincan;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;

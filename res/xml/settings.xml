@@ -24,9 +24,9 @@
 		     </Preference>	 
 	    </PreferenceCategory>
 	    
-	    <PreferenceCategory android:title="MISORTEL">
+	    <PreferenceCategory android:title="tincan">
 			 <Preference
-			     android:title="About MISORTEL"
+			     android:title="About tincan"
 			     android:summary="@string/label_version"
 			     android:key="settings_about">
 			 </Preference>					 

@@ -1,4 +1,4 @@
-package com.misortel.tincan;
+package com.tincan.tincan;
 
 import java.text.ParseException;
 import java.util.ArrayList;
@@ -7,9 +7,9 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-import com.misortel.tincan.adapter.AlertManager;
-import com.misortel.tincan.adapter.ContactsAdapter;
-import com.misortel.tincan.adapter.SessionManager;
+import com.tincan.tincan.adapter.AlertManager;
+import com.tincan.tincan.adapter.ContactsAdapter;
+import com.tincan.tincan.adapter.SessionManager;
 
 import android.annotation.SuppressLint;
 import android.app.AlertDialog;

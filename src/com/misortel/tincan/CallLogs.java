@@ -1,8 +1,8 @@
-package com.misortel.tincan;
+package com.tincan.tincan;
 
 import java.util.List;
 
-import com.misortel.tincan.adapter.DBCon;
+import com.tincan.tincan.adapter.DBCon;
 
 import android.os.Bundle;
 import android.support.v4.widget.SimpleCursorAdapter;

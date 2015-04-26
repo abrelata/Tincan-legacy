@@ -1,9 +1,9 @@
-package com.misortel.tincan;
+package com.tincan.tincan;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 
-import com.misortel.tincan.adapter.AlertManager;
+import com.tincan.tincan.adapter.AlertManager;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;

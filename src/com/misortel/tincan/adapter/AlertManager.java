@@ -1,4 +1,4 @@
-package com.misortel.tincan.adapter;
+package com.tincan.tincan.adapter;
 
 import android.app.AlertDialog;
 import android.content.Context;

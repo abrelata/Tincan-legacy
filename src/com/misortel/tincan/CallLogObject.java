@@ -1,4 +1,4 @@
-package com.misortel.tincan;
+package com.tincan.tincan;
 
 public class CallLogObject {
 	private String contact, duration;

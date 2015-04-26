@@ -1,7 +1,7 @@
-package com.misortel.tincan;
+package com.tincan.tincan;
 
-import com.misortel.tincan.adapter.AlertManager;
-import com.misortel.tincan.adapter.SessionManager;
+import com.tincan.tincan.adapter.AlertManager;
+import com.tincan.tincan.adapter.SessionManager;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;

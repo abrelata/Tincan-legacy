@@ -1,4 +1,4 @@
-package com.misortel.tincan;
+package com.tincan.tincan;
 
 import android.os.Bundle;
 import android.support.v7.app.ActionBar;

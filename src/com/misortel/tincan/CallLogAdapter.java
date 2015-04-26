@@ -1,4 +1,4 @@
-package com.misortel.tincan;
+package com.tincan.tincan;
 
 import android.content.Context;
 import android.database.Cursor;
