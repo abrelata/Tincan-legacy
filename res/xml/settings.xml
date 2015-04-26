@@ -1,0 +1,34 @@
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:key="settings_preferencescreen">
+        <PreferenceCategory 
+            android:title="Network Connection"
+            android:key="settings_network">
+            <Preference 
+                android:title="Internet"
+                android:key="settings_internet"/>
+			 <Preference
+			     android:title="Wifi"
+			     android:summary="Set up and manage wireless access point.">
+			    <intent android:action="android.settings.WIFI_SETTINGS" />
+			 </Preference>
+			 <Preference
+			     android:title="Cellular"
+			     android:key="settings_cellular"
+			     android:summary="Set up and manage data connection settings.">
+			 </Preference>
+			 <Preference
+			     android:title="VPN Settings"
+			     android:summary="Set up and manage Virtual Private Networks.">
+			     <intent android:action="android.net.vpn.SETTINGS"></intent>
+		     </Preference>	 
+	    </PreferenceCategory>
+	    
+	    <PreferenceCategory android:title="tincan">
+			 <Preference
+			     android:title="About tincan"
+			     android:summary="@string/label_version"
+			     android:key="settings_about">
+			 </Preference>					 
+		 </PreferenceCategory>
+</PreferenceScreen>

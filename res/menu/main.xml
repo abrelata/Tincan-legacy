@@ -1,0 +1,42 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:yourapp="http://schemas.android.com/apk/res-auto">
+      
+        <item
+	        android:id="@+id/action_profile"
+	        android:title="@string/label_profile"
+	        yourapp:showAsAction="always"
+	        android:icon="@drawable/ic_action_person"/>
+        
+        <item
+	        android:id="@+id/action_call"
+	        android:title="@string/action_call_some"
+	        yourapp:showAsAction="always"
+	        android:icon="@drawable/ic_action_dial_pad"/>
+        
+        <item
+	        android:id="@+id/action_logs"
+	        android:title="@string/action_history"
+	        yourapp:showAsAction="always"
+	        android:icon="@drawable/ic_action_time"/>
+        
+       <item
+            android:id="@+id/action_overflow"
+            yourapp:showAsAction="always"
+            android:icon="@drawable/ic_action_overflow">
+        	 
+        	<menu>
+		        <item
+			        android:id="@+id/action_rates"
+			        android:title="@string/action_rates"
+			        yourapp:showAsAction="never"/>
+		        <item
+			        android:id="@+id/action_settings"
+			        android:title="@string/label_settings"
+			        yourapp:showAsAction="never"/>
+			    <item
+			        android:id="@+id/action_logout"
+			        android:title="@string/label_logout"
+			        yourapp:showAsAction="never"/>
+	    	</menu>
+	    </item>
+</menu>
