@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <!-- APP -->
+    <string name="app_name">tincan Phone Extension</string>
+    <string name="label_title">tincan Phone Extension</string>
+    <string name="label_version">Version 0.2.2514 (BETA)</string>
+    <string name="label_company">tincan</string>
+    
+    <!-- LABELS -->
+    <string name="label_username">Username</string>
+    <string name="label_password">Password</string>
+    <string name="label_forget">Problems signing in?</string>
+    <string name="label_login">Login</string>
+    <string name="label_logout">Logout</string>
+    <string name="label_okay">Okay</string>
+    <string name="label_call">Call Someone</string>
+    <string name="label_callrates">Call Rates</string>
+    <string name="label_areacode">Area Code</string>
+    <string name="label_dayrate">Day Rate</string>
+    <string name="label_nightrate">Night Rate</string>
+    <string name="label_about">About</string>
+    <string name="label_profile">Profile</string>
+    <string name="label_recent">Recent</string>
+    <string name="label_copyright">© tincan Phone Extension 2013</string>
+    <string name="label_about_details">tincan Phone Extension is built using open source software.</string>
+    <string name="label_name">Name</string>
+    <string name="label_status">Status</string>
+    <string name="label_online">Online</string>
+    <string name="label_offline">Offline</string>
+    <string name="label_yes">Yes</string>
+    <string name="label_no">No</string>
+    <string name="label_cancel">Cancel</string>
+    <string name="label_settings">Settings</string>
+    <string name="label_are_you_sure">Are you sure want to call? </string>
+    <string name="label_about_notice">The tincan logo and associated trademarks and logos are trademarks of tincan or related entities.</string>
+    <string name="label_disclaimer">Warning:This program is protected by copyright law and international treaties. Unauthorized reproduction or distribution of this program, or any portions of it, may result in severe criminal and civil penalties and will be prosecuted to the maximum extent possible under law.</string>
+    <string name="label_welcome">Welcome!</string>
+    <string name="label_getStarted">To get started, please sign in using your tincan account</string>
+    <string name="label_enter_contact">Enter contact number</string>
+    
+    <!-- actions -->
+    <string name="action_rates">Call Rates</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_dialer">Keypad</string>
+    <string name="action_contacts">Contacts</string>
+    <string name="action_history">Call Log</string>
+    <string name="action_clear_callLogs">Clear call history</string> 
+    
+    <!-- error -->
+    <string name="alert_error">Error</string>
+    <string name="alert_unsupported_device">Sorry, your phone model is unsupported.</string>
+    <string name="alert_problem_account">Call tincan Customer Service # 712345 or visit their office at Gen. Antonio Luna St. and look for Engr. Verendia for more details.</string>
+    <string name="alert_username_password_incorrect">Username/Password is incorrect</string>
+    <string name="alert_no_username_password">No username/password entered.</string>
+    <string name="alert_alert_offline">It seems you\'re offline. Check your connection settings.</string> 
+    
+    <!-- ETC -->
+    <string name="action_account_settings">Account Settings</string>
+    <string name="action_call_some">Call</string>
+    <string name="action_end_call">Hang Up</string>
+    <string name="label_update_account">Please update your Account Settings.</string>
+    <string name="label_registering_to_server">Contacting to tincan Server</string>
+    <string name="label_ready">Ready.</string>
+    <string name="alert_register_failed">Registering failed. Check your connection settings.</string>
+    <string name="def_call_start">00:00:00</string>
+    <string name="def_country_code">+63</string>
+    
+    <string-array 
+        name="countries">
+        <item>Philippines</item>
+        <item>Afghanistan</item>
+        <item>Australia</item>
+        <item>Albania</item>
+        <item>Algeria</item>
+        <item>Andorra</item>
+        <item>Argentina</item>
+        <item>Armenia</item>
+        <item>Australia</item>
+        <item>Austria</item>
+        <item>Bahamas</item>
+        <item>Bahrain</item>
+    </string-array>
+</resources>
