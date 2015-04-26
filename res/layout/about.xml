@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:padding="15dp"
+        android:layout_height="wrap_content">
+        
+        <TextView 
+            android:id="@+id/about_version"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="@string/label_version"/>
+        
+        <TextView 
+            android:id="@+id/about_copyright"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:layout_below="@+id/about_version"
+            android:text="@string/label_copyright"/>
+        
+        <TextView
+            android:id="@+id/about_blabla"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/about_copyright"
+            android:paddingTop="50dp"
+            android:text="@string/label_about_notice"/>
+        <TextView
+            android:id="@+id/about_disclaimer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/about_blabla"
+            android:paddingTop="20dp"
+            android:text="@string/label_disclaimer"/>
+    </RelativeLayout>
+    
+</ScrollView>
