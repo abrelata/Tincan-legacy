@@ -48,7 +48,7 @@ import android.widget.TextView;
 public class MainActivity extends ActionBarActivity implements OnItemClickListener{
 	public SharedPreferences settings;
 	public String username, password, contactNumber="", contactName="";
-	public final String domain = "10.10.30.50";
+	public final String domain = "################";
 
 	private Cursor phone;
 	private List<Contacts> list;

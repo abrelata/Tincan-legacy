@@ -22,8 +22,7 @@ public class CallLogs extends ActionBarActivity{
 	//private List<CallLogObject> data;
 	private DBCon con;
 	private ActionBar actionBar;
-	
-	///////
+
 	private int[] viewLogsID;
 	
 	@Override
@@ -43,11 +42,7 @@ public class CallLogs extends ActionBarActivity{
 	    
 		showCallLog();
 	}
-	/*private void queryCallLog(){
-		try{
-			con.ge
-		}
-	}*/
+
     private void showCallLog() {
 		// TODO Auto-generated method stub
 		con.open();
